@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Javasscript by seprimaulana</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Javasscript</h1>
+      <h2 class="project-tagline"></h2>
+      <a href="https://github.com/seprimaulana/javasscript" class="btn">View on GitHub</a>
+      <a href="https://github.com/seprimaulana/javasscript/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/seprimaulana/javasscript/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <p>.jquery-lightbox-move *
+{
+  webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}</p>
+
+<p>.jquery-lightbox-overlay
+{
+  background:#000000;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}</p>
+
+<p>.jquery-lightbox
+{
+  position:relative;
+  padding:17px 0;
+}</p>
+
+<p>.jquery-lightbox-border-top-left,
+.jquery-lightbox-border-top-right,
+.jquery-lightbox-border-bottom-left,
+.jquery-lightbox-border-bottom-right
+{
+  position:absolute;
+  height:18px;
+  width:12%;
+  z-index:7000;
+}</p>
+
+<p>.jquery-lightbox-border-top-left
+{
+  background: url(<a href="http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png">http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png</a>) no-repeat 0 0;
+  top:0;
+  left:0;
+}</p>
+
+<p>.jquery-lightbox-border-top-right
+{
+  background: url(<a href="http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png">http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png</a>) no-repeat right 0;
+  top:0;
+  right:0;
+}</p>
+
+<p>.jquery-lightbox-border-top-middle
+{
+  background:#2b2b2b;
+  position:absolute;
+  height:7px;
+  width:78%;
+  top:0;
+  left:12%;
+  z-index:7000;
+  overflow:hidden;
+}</p>
+
+<p>.jquery-lightbox-border-bottom-left
+{
+  background: url(<a href="http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png">http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png</a>) no-repeat 0 bottom;
+  bottom:0;
+  left:0;
+}</p>
+
+<p>.jquery-lightbox-border-bottom-right
+{
+  background: url(<a href="http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png">http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png</a>) no-repeat right bottom;
+  bottom:0;
+  right:0;
+}</p>
+
+<p>.jquery-lightbox-border-bottom-middle
+{
+  background:#2b2b2b;
+  height:7px;
+  width:78%;
+  position:absolute;
+  bottom:0;
+  left:12%;
+  z-index:7000;
+  overflow:hidden;
+}</p>
+
+<p>.jquery-lightbox-title
+{
+  background:#2b2b2b;
+  color:#FFFFFF;
+  font-family:verdana,arial,serif;
+  font-size:11px;
+  line-height:14px;
+  padding:5px 8px;
+  margin:3px;
+  position:absolute;
+  bottom:0;
+  z-index:7000;
+  opacity:0.9;
+}</p>
+
+<p>.jquery-lightbox-html
+{
+  z-index:7000;
+  position:relative;
+  border:0;
+  border-left:7px solid #2b2b2b;
+  border-right:7px solid #2b2b2b;
+  padding:0px 15px;
+  vertical-align:top;
+  -webkit-overflow-scrolling: touch;
+}</p>
+
+<p>.jquery-lightbox-html embed,
+.jquery-lightbox-html object,
+.jquery-lightbox-html iframe
+{
+  vertical-align:top;
+  display:block;
+}</p>
+
+<p>.jquery-lightbox-background
+{
+  position:absolute;
+  top:7px;
+  left:7px;
+  z-index:6999;
+  float:left;
+  padding:0;
+}</p>
+
+<p>.jquery-lightbox-background img
+{
+  display:block;
+  position:relative;
+  border:0;
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+}</p>
+
+<p>.jquery-lightbox-mode-image .jquery-lightbox-html
+{
+  z-index:6998;
+  padding:0;
+}</p>
+
+<p>.jquery-lightbox-mode-html .jquery-lightbox-background
+{
+  background:#FFFFFF;
+}</p>
+
+<p>.jquery-lightbox-mode-html .jquery-lightbox-html
+{
+  overflow:auto;
+}</p>
+
+<p>.jquery-lightbox-loading,
+.jquery-lightbox-mode-html .jquery-lightbox-loading
+{
+  background:#FFFFFF url(<a href="http://2.bp.blogspot.com/-Fux_YZgfTXQ/UrWx4CK5huI/AAAAAAAAGNM/AkMsQoiMahE/s1600/loading.gif">http://2.bp.blogspot.com/-Fux_YZgfTXQ/UrWx4CK5huI/AAAAAAAAGNM/AkMsQoiMahE/s1600/loading.gif</a>) no-repeat center center;
+}</p>
+
+<p>.jquery-lightbox-button-close
+{
+  background: url(<a href="http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png">http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png</a>) no-repeat -190px -115px;
+  position:absolute;
+  top:12px;
+  right:-26px;
+  width:29px;
+  height:29px;
+}</p>
+
+<p>.jquery-lightbox-button-close:hover
+{
+  background: url(<a href="http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png">http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png</a>) no-repeat -220px -115px;
+}</p>
+
+<p>.jquery-lightbox-button-close span,
+.jquery-lightbox-buttons span
+{
+  display:none;
+}</p>
+
+<p>.jquery-lightbox-mode-image .jquery-lightbox-button-close
+{
+  right:14px;
+  z-index:7002;
+}</p>
+
+<p>.jquery-lightbox-buttons 
+{
+  position:absolute;
+  top:7px;
+  left:7px;
+  z-index:7001;
+  height:39px;
+  display:none;
+}</p>
+
+<p>.jquery-lightbox-buttons .jquery-lightbox-buttons-init,
+.jquery-lightbox-buttons .jquery-lightbox-buttons-end
+{
+  width:5px;
+  height:39px;
+  float:left;
+  display:inline;
+}</p>
+
+<p>.jquery-lightbox-buttons .jquery-lightbox-buttons-init
+{
+  background: url(<a href="http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png">http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png</a>) no-repeat -151px -153px;
+  margin:7px 0 0 7px;
+}</p>
+
+<p>.jquery-lightbox-buttons .jquery-lightbox-buttons-end
+{
+  background: url(<a href="http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png">http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png</a>) no-repeat -244px -153px;
+  margin:7px 0 0 0;
+}</p>
+
+<p>.jquery-lightbox-buttons .jquery-lightbox-button-left
+{
+  background: url(<a href="http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png">http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png</a>) no-repeat -156px -153px;
+  width:24px;
+  height:39px;
+  float:left;
+  display:inline;
+  margin:7px 0 0 0;
+}</p>
+
+<p>.jquery-lightbox-buttons .jquery-lightbox-button-left:hover
+{
+  background: url(<a href="http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png">http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png</a>) no-repeat -156px -194px;
+}</p>
+
+<p>.jquery-lightbox-buttons .jquery-lightbox-button-right
+{
+  background: url(<a href="http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png">http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png</a>) no-repeat -220px -153px;
+  width:24px;
+  height:39px;
+  float:left;
+  display:inline;
+  margin:7px 0 0 0;
+}</p>
+
+<p>.jquery-lightbox-buttons .jquery-lightbox-button-right:hover
+{
+  background: url(<a href="http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png">http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png</a>) no-repeat -220px -194px;
+}</p>
+
+<p>.jquery-lightbox-buttons .jquery-lightbox-button-max
+{
+  background: url(<a href="http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png">http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png</a>) no-repeat -182px -153px;
+  width:36px;
+  height:39px;
+  float:left;
+  display:inline;
+  margin:7px 0 0 0;
+}</p>
+
+<p>.jquery-lightbox-buttons .jquery-lightbox-button-max:hover
+{
+  background: url(<a href="http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png">http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png</a>) no-repeat -182px -194px;
+}</p>
+
+<p>.jquery-lightbox-buttons .jquery-lightbox-button-min
+{
+  background: url(<a href="http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png">http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png</a>) no-repeat -162px -235px;
+  width:36px;
+  height:39px;
+  float:left;
+  display:inline;
+  margin:7px 0 0 0;
+}</p>
+
+<p>.jquery-lightbox-buttons .jquery-lightbox-button-min:hover
+{
+  background: url(<a href="http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png">http://3.bp.blogspot.com/-XPfMjWyAtbM/UrWwg9cBHuI/AAAAAAAAGNA/XSeXzRQ84e8/s1600/jquery-lightbox-theme.png</a>) no-repeat -207px -235px;
+}</p>
+
+<p>.jquery-lightbox-buttons-custom
+{
+  height:39px;
+  float:left;
+  display:inline;
+  background:#2b2b2b;
+  line-height:39px;
+  font-size:10px;
+  margin:7px 0 0 0;
+}</p>
+
+<p>.jquery-lightbox-buttons-custom a
+{
+  color:#FFFFFF;
+  font-size:10px;
+  display:inline;
+  font-weight:normal;
+  text-decoration:underline;
+  padding:0 3px;
+}</p>
+
+<p>.jquery-lightbox-mode-image .jquery-lightbox-button-close
+{
+  opacity:0.7;
+}</p>
+
+<p>.jquery-lightbox-mode-image .jquery-lightbox-buttons
+{
+  opacity:0.3;
+}</p>
+
+<p>.jquery-lightbox-mode-image:hover .jquery-lightbox-buttons,
+.jquery-lightbox-mode-image:hover .jquery-lightbox-button-close
+{
+  opacity:0.9;
+}</p>
+
+<p>.jquery-lightbox-navigator
+{
+  display:none;
+}</p>
+
+<p>.jquery-lightbox-hide
+{
+  display:none;
+}</p>
+
+<p>/* Retina: */
+<a href="https://github.com/media" class="user-mention">@media</a> screen and (max-device-width: 640px), screen and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-device-width: 768px) and (max--moz-device-pixel-ratio: 2)
+{
+  .jquery-lightbox-button-close,
+  .jquery-lightbox-button-close:hover,
+  .jquery-lightbox-border-top-left,
+  .jquery-lightbox-border-top-right,
+  .jquery-lightbox-border-bottom-left,
+  .jquery-lightbox-border-bottom-right,
+  .jquery-lightbox-buttons .jquery-lightbox-buttons-init,
+  .jquery-lightbox-buttons .jquery-lightbox-buttons-end,
+  .jquery-lightbox-buttons .jquery-lightbox-button-left,
+  .jquery-lightbox-buttons .jquery-lightbox-button-left:hover,
+  .jquery-lightbox-buttons .jquery-lightbox-button-right,
+  .jquery-lightbox-buttons .jquery-lightbox-button-right:hover,
+  .jquery-lightbox-buttons .jquery-lightbox-button-max,
+  .jquery-lightbox-buttons .jquery-lightbox-button-max:hover,
+  .jquery-lightbox-buttons .jquery-lightbox-button-min,
+  .jquery-lightbox-buttons .jquery-lightbox-button-min:hover
+  {
+    background-image: url(images/jquery-lightbox-theme-mobile.png);
+    background-size: 834px auto;
+  }</p>
+
+<p>.jquery-lightbox-button-close
+  {
+    background-position:-380px -230px;
+    width:58px;
+    height:58px;
+    right:-52px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    outline: none;
+  }</p>
+
+<p>.jquery-lightbox-button-close:hover
+  {
+    background-position:-440px -230px;
+  }</p>
+
+<p>.jquery-lightbox-buttons .jquery-lightbox-buttons-init,
+  .jquery-lightbox-buttons .jquery-lightbox-buttons-end
+  {
+    width:10px;
+    height:78px;
+  }</p>
+
+<p>.jquery-lightbox-buttons .jquery-lightbox-buttons-init
+  {
+    background-position: -302px -306px;
+  }</p>
+
+<p>.jquery-lightbox-buttons .jquery-lightbox-buttons-end
+  {
+    background-position: -488px -306px;
+  }</p>
+
+<p>.jquery-lightbox-buttons .jquery-lightbox-button-left
+  {
+    background-position: -312px -306px;
+    width:48px;
+    height:78px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    outline: none;
+  }</p>
+
+<p>.jquery-lightbox-buttons .jquery-lightbox-button-left:hover
+  {
+    background-position: -312px -388px;
+  }</p>
+
+<p>.jquery-lightbox-buttons .jquery-lightbox-button-right
+  {
+    background-position: -440px -306px;
+    width:48px;
+    height:78px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    outline: none;
+  }</p>
+
+<p>.jquery-lightbox-buttons .jquery-lightbox-button-right:hover
+  {
+    background-position: -440px -388px;
+  }</p>
+
+<p>.jquery-lightbox-buttons .jquery-lightbox-button-max
+  {
+    background-position: -364px -306px;
+    width:72px;
+    height:78px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    outline: none;
+  }</p>
+
+<p>.jquery-lightbox-buttons .jquery-lightbox-button-max:hover
+  {
+    background-position: -364px -388px;
+  }</p>
+
+<p>.jquery-lightbox-buttons .jquery-lightbox-button-min
+  {
+    background-position: -324px -470px;
+    width:72px;
+    height:78px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    outline: none;
+  }</p>
+
+<p>.jquery-lightbox-buttons .jquery-lightbox-button-min:hover
+  {
+    background-position: -414px -470px;
+  }
+}</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/seprimaulana/javasscript">Javasscript</a> is maintained by <a href="https://github.com/seprimaulana">seprimaulana</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
+
